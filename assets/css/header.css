@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+header {
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 50px;
+}
