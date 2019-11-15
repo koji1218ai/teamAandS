@@ -1,20 +1,241 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/shota.css">
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/ai.css">
+  <link rel="stylesheet" href="./assets/css/header.css">
+  <!-- bootstrap cssの読み込み -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <title>賃貸探し</title>
 </head>
+
 <body>
 
-  <header></header>
-  <main></main>
-  <section></section>
-  <footer></footer>
-  
-  
+
+
+  <div class="container">
+    <header>
+      <h1>物件探し</h1>
+      <nav class="menu">
+        <ul>
+          <li>住居用</li>
+          <li>駐車場</li>
+          <li>事業用</li>
+        </ul>
+      </nav>
+    </header>
+
+
+
+
+
+    <main>
+      <!-- ① 宜野湾-->
+      <div class="main-box"> 
+        <h5>1年間家賃2,000円減額☆ネット無料☆エアコン付き!オートロック対応で安心！</h5>
+        <div class="big-box">
+          <img src="./assets/img/layout1.jpg" alt="">
+
+          <div class="information">
+
+            <div class="address">
+              <button type="button" class="btn btn-primary btn-lg small">アパート</button>
+              <button type="button" class="btn btn-success ml-4">宜野湾市</button>
+              <p class="address">住所 : 宜野湾市宜野湾3丁目</p>
+            </div>
+
+            <div class="info-box">
+              <div class="info">
+                <button type="button" class="btn btn-outline-info mb-3">家賃</button>
+                <p>3.2万円</p>
+              </div>
+              <div class="info">
+                <button type="button" class="btn btn-outline-info mb-3">間取り</button>
+                <p>1L</p>
+              </div>
+              <div class="info">
+                <button type="button" class="btn btn-outline-info mb-3">共益費</button>
+                <p>2000円</p>
+              </div>
+              <div class="info">
+                <button type="button" class="btn btn-outline-info mb-3">敷金/礼金/保証金</button>
+                <p>0円</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bottom">
+          <p class="company">中部興産(株)宜野湾店</p>
+          <div class="tel">
+            <i class="fas fa-phone-alt"></i>
+            <p class="num">098-999-8888</p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <!-- ② 沖縄市-->
+      <div class="main-box">
+        <h5>こどもの国＆コザ中学校近く♪高台に聳え立つ物件です!!オーシャンビュー物件♪</h5>
+        <div class="big-box">
+          <img src="./assets/img/layout2.jpg" alt="">
+          <div class="information">
+            <div class="address">
+              <button type="button" class="btn btn-primary btn-lg small">アパート</button>
+              <button type="button" class="btn btn-success ml-4">沖縄市</button>
+              <p class="address"> 住所 : 沖縄市胡屋5丁目 ＴＡＩＹＯマンション 305号</p>
+            </div>
+
+            <div class="info-box">
+              <div class="info">
+                <button type="button" class="btn btn-outline-info mb-3">家賃</button>
+                <p>4.1万円</p>
+              </div>
+              <div class="info">
+                <button type="button" class="btn btn-outline-info mb-3">間取り</button>
+                <p>1LDK</p>
+              </div>
+              <div class="info">
+                <button type="button" class="btn btn-outline-info mb-3">共益費</button>
+                <p>2000円</p>
+              </div>
+              <div class="info">
+                <button type="button" class="btn btn-outline-info mb-3">敷金/礼金/保証金</button>
+                <p>1ヶ月/-/-円</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bottom">
+          <p class="company">住友ハウス</p>
+          <div class="tel">
+            <i class="fas fa-phone-alt"></i>
+            <p class="num">098-999-8888</p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- ③ 那覇市-->
+      <div class="main-box">
+        <h5>那覇市上間エリア 一人暮らしにピッタリなお部屋!広いリビング </h5>
+        <div class="big-box">
+          <img src="./assets/img/layout3.jpg" alt="">
+          <div class="information">
+            <div class="address">
+              <button type="button" class="btn btn-primary btn-lg small">アパート</button>
+              <button type="button" class="btn btn-success ml-4">那覇市</button>
+              <p class="address">住所 :  那覇市上間 琉電アパート B-6号</p>
+            </div>
+            <div class="info-box">
+              <div class="info">
+                <button type="button" class="btn btn-outline-info mb-3">家賃</button>
+                <p>３万円</p>
+              </div>
+              <div class="info">
+                <button type="button" class="btn btn-outline-info mb-3">間取り</button>
+                <p>1LDK</p>
+              </div>
+              <div class="info">
+                <button type="button" class="btn btn-outline-info mb-3">共益費</button>
+                <p>1000円</p>
+              </div>
+              <div class="info">
+                <button type="button" class="btn btn-outline-info mb-3">敷金/礼金/保証金</button>
+                <p>0円</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="bottom">
+          <p class="company">(株)不動産ステーション沖縄　沖大前店</p>
+          <div class="tel">
+            <i class="fas fa-phone-alt"></i>
+            <p class="num">098-999-8888</p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <!-- ④ 北谷町-->
+      <div class="main-box">
+        <h5> ☆人気エリア☆１キロ圏内にスーパーや公園等生活も便利</h5>
+        <div class="big-box">
+          <img src="./assets/img/layout4.jpg" alt="">
+          <div class="information">
+            <div class="address">
+              <button type="button" class="btn btn-primary btn-lg small">アパート</button>
+              <button type="button" class="btn btn-success ml-4">北谷町</button>
+              <p class="address">住所 :  北谷町吉原</p>
+            </div>
+
+            <div class="info-box">
+              <div class="info">
+                <button type="button" class="btn btn-outline-info mb-3">家賃</button>
+                <p>３.９万円</p>
+              </div>
+              <div class="info">
+                <button type="button" class="btn btn-outline-info mb-3">間取り</button>
+                <p>1K</p>
+              </div>
+              <div class="info">
+                <button type="button" class="btn btn-outline-info mb-3">共益費</button>
+                <p>2500円</p>
+              </div>
+              <div class="info">
+                <button type="button" class="btn btn-outline-info mb-3">敷金/礼金/保証金</button>
+                <p>0円</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom">
+          <p class="company">(株)スタイル沖縄　中部支店</p>
+          <div class="tel">
+            <i class="fas fa-phone-alt"></i>
+            <p class="num">098-999-8888</p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    </main>
+
+
+
+
+
+    <section></section>
+    <footer></footer>
+
+  </div>
+
+  <!-- bootstrap scriptの読み込み -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
