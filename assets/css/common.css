@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+
+header {
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+.menu{
+    width: 30%;
+}
+
+.manu ul {
+    display: flex;
+}
+
+
+
+main {
+    height: 90vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main h1 {
+    color: green;
+    font-size: 60px;
+}
