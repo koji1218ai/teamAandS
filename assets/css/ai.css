@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+body{
+  width: 100%;
+}
+
+
+
+.info{
+  border-radius: 100%;
+  background-color: yellow;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 18px 3px 17px 18px;
+}
+.info-box{
+  display: flex;
+}
+main h5{
+  font-size: 28px;
+  border-bottom: 1px solid black;
+  background: linear-gradient(transparent 30%, rgb(245, 164, 231) 60%);
+}
+.main-box{
+  width: 100%;
+  border: 10px gray solid;
+  border-style: inset;
+  margin-top: 30px;
+}
+
+.address{
+  margin: auto;
+  font-size: 20px;
+}
+.information{
+  display: flex;
+  flex-direction: column;
+  width: 76%;
+}
+.address{
+  display: flex;
+  margin-left: 78px;
+  margin-top: 15px;
+}
+main img{
+  width: 20%;
+  height: 288px;
+  margin-left: 10px;
+}
+main .big-box{
+  display: flex;
+}
+/* iconが現れない問題 */
+i{
+  font-size: 50px;
+  height: 30px !important;
+  width: 30px !important;
+  display: block;
+}
+.bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid black;
+  height: 50px;
+}
+.company{
+  margin-bottom: 0px;
+  margin-left: 20px;
+  font-size: 25px;
+}
+.tel{
+  display: flex;
+  margin-right: 20px;
+}
+.num{
+  margin-bottom: 0px;
+}
