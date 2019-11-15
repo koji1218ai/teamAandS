@@ -1,18 +1,5 @@
 @charset "UTF-8";
 
-
-
-
-.menu{
-    width: 30%;
-}
-
-.manu ul {
-    display: flex;
-}
-
-
-
 main {
     height: 90vh;
     background-color: aquamarine;
