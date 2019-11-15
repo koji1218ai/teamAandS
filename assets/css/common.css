@@ -12,13 +12,24 @@ main {
     text-align: center;
 }
 
+main {
+    background-image: url(../img/interior-3778708_1920.jpg);
+    background-size: cover;
+}
+
 main h1 {
-    color: green;
+    color: white;
     font-size: 60px;
+}
+main span {
+    background-color: green;
+    border-radius: 100%;
+    padding: 20px;
 }
 
 main h3 {
-    color: green;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
     font-size: 40px;
 }
 
