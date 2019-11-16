@@ -144,3 +144,14 @@ iframe{
   height: 100%;
   margin-left: 50px;
 }
+
+.scroll-box{
+  height: 30px;
+  text-align: end;
+  margin-bottom: 20px;
+}
+.scroll{
+  font-size: 15px;
+  margin: 15px 25px;
+  cursor: pointer;
+}
