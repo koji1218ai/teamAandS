@@ -100,12 +100,8 @@ main .big-box{
   display: flex;
 }
 /* iconが現れない問題 */
-.tel i{
-  font-size: 50px;
-  height: 30px !important;
-  width: 30px !important;
-  display: block;
-}
+/* altを使うとなぜか現れない。消したら出た */
+
 .bottom{
   display: flex;
   justify-content: space-between;
@@ -124,4 +120,27 @@ main .big-box{
 }
 .num{
   margin-bottom: 0px;
+}
+
+
+.map-grp{
+  display: flex;
+  width: 100%;
+}
+.map{
+  width: 500px;
+  height: 170px;
+  margin-bottom: 10px;
+
+}
+.text{
+  width: 45%;
+  padding-top: 20px;
+  margin-left: 25px;
+}
+
+iframe{
+  width: 100%;
+  height: 100%;
+  margin-left: 50px;
 }
