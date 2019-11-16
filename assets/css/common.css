@@ -33,3 +33,48 @@ main h3 {
     font-size: 40px;
 }
 
+section {
+   
+    width: 90%;
+    margin-top: 40px;
+    height: 100vh;
+    margin:0 auto;
+}
+
+.souba {
+    margin-top: 40px;
+    width: 100%;   
+}
+.souba h2{
+    font-size: 30px;
+    text-align: center;
+}
+.souba p {
+    font-size: 20px;
+    text-align: center;
+}
+.chintai img{
+    width: 60%;
+}
+.chintai {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.chintai p {
+    width: 60%;
+   text-align: end;
+}
+
+.reason {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.reason img {
+    width: 100%;
+}
+
+
+
+
