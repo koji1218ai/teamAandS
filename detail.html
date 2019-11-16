@@ -5,13 +5,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- 準備道具 -->
   <link rel="stylesheet" href="./assets/css/reset.css">
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-  <link rel="stylesheet" href="./assets/css/ai.css">
-  <link rel="stylesheet" href="./assets/css/header.css">
   <!-- bootstrap cssの読み込み -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+  <!-- 書いていくファイル -->
+  <link rel="stylesheet" href="./assets/css/ai.css">
+  <link rel="stylesheet" href="./assets/css/header.css">
   <title>賃貸探し</title>
 </head>
 
@@ -20,17 +23,29 @@
 
 
   <div class="container">
-    <header>
-      <h1>物件探し</h1>
-      <nav class="menu">
-        <ul>
-          <li>住居用</li>
-          <li>駐車場</li>
-          <li>事業用</li>
-        </ul>
-      </nav>
-    </header>
 
+        <header>
+            <h1><img src="./assets/img/flag-38996_640.png" alt="">沖縄の物件探し</h1>
+            <ul class="nav justify-content-center mt-4">
+                <li class="nav-item mr-2">
+                    <a class="nav-link active" href="./index.html">Top <i class="fas fa-caret-down"></i></a>
+                </li>
+                <li class="nav-item mr-2">
+                    <a class="nav-link active" href="./detail.html">住居用 <i class="fas fa-caret-down"></i></a>
+                </li>
+                <li class="nav-item mr-2">
+                    <a class="nav-link" href="#!">駐車場 <i class="fas fa-caret-down"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#!">事業用 <i class="fas fa-caret-down"></i></a>
+                </li>
+            </ul>
+            <div class="header-right mt-3 mr-5">
+                <a href="#">
+                    <div class="info-bar"><i class="far fa-envelope"></i> 相談は無料！！</div>
+                </a>
+            </div>
+        </header>
 
 
 
@@ -236,6 +251,9 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+
+    <script src="./assets/js/ai.js"></script>
+
 </body>
 
 </html>
