@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
-/* body{
+body{
   width: 100%;
-} */
+}
 
 
 
@@ -47,9 +47,6 @@ header img {
   text-decoration: none;
 
 }
-
-
-
 
 
 
@@ -103,7 +100,7 @@ main .big-box{
   display: flex;
 }
 /* iconが現れない問題 */
-i{
+.tel i{
   font-size: 50px;
   height: 30px !important;
   width: 30px !important;
