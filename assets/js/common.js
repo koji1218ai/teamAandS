@@ -1,9 +1,9 @@
 $(function(){
 
-    console.log(123);
+    // console.log(123);
     //モーダル
     $(".js-modal").on("click", function() {
-        console.log("click");
+        // console.log(123);
         $("body").addClass("modal-open");
         $(".modal-content").fadeIn("slow");
         $("#modal-bg").fadeIn("slow");
