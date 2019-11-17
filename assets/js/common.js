@@ -1,4 +1,22 @@
-$(function () {
+$(function(){
+
+    console.log(123);
+    //モーダル
+    $(".js-modal").on("click", function() {
+        console.log("click");
+        $("body").addClass("modal-open");
+        $(".modal-content").fadeIn("slow");
+        $("#modal-bg").fadeIn("slow");
+    });
+
+    $(".js-modal-close").on("click", function() {
+        $("body").removeClass("modal-open");
+        $(".modal-content").fadeOut(1000);
+        $("#modal-bg").fadeOut(1000);
+    });
+        //モーダルここまで
+
+
     $('a[href^="#"]').click(function () {
         var speed = 600;
         var href = $(this).attr("href");

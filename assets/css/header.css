@@ -29,6 +29,9 @@ header img {
 
 }
 
+
+
+
 .info-bar {
     background-color: red;
     padding: 10px 40px;
@@ -42,6 +45,52 @@ header img {
 
 }
 
+
+/* モーダル */
+.modal-close {
+    text-align: right;
+    padding: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.modal-wrapper {
+    min-height: 400px;
+}
+
+.modal-content {
+    display: none;
+    position: relative;
+    top: 50%;
+    right: 100%;
+    text-align: center;
+    width: 500px;
+    height: 300px;
+    margin-top: -150px;
+    margin-left: -250px;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.modal-content p{
+    font-size: 20px;
+}
+#modal-bg {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.modal-open {
+    overflow: hidden;
+}
+
+/* モーダルここまで */
 
 
 
