@@ -70,7 +70,6 @@ header img {
   align-items: center;
   flex-direction: column;
   margin: 18px 3px 17px 18px;
-  font-family: 
 }
 .info-box{
   display: flex;
@@ -80,11 +79,11 @@ main h5{
   border-bottom: 1px solid black;
   background: linear-gradient(transparent 30%, #ccffff 60%);
 }
+
 .main-box{
   width: 100%;
   border: 10px gray solid;
   border-style: inset;
-  margin-top: 30px;
 }
 
 .address{
