@@ -15,7 +15,7 @@
   <!-- 書いていくファイル -->
   <link rel="stylesheet" href="./assets/css/ai.css">
   <link rel="stylesheet" href="./assets/css/header.css">
-  <title>賃貸探し</title>
+  <title>賃貸探し2</title>
 </head>
 
 <body>
@@ -43,9 +43,10 @@
 
       <!-- モーダル -->
       <div class="btn-wrapper modal-wrapper">
-        <div class="btn js-modal">
+        <div class="btn">
           <div class="header-right mt-3 mr-5">
-            <a href="#">
+            <!-- aを囲っているdivに付けたらボタンが押せない現象が。js-modalをaタグにつければ上手くいく -->
+            <a href="#" class=" js-modal">
               <div class="info-bar"><i class="far fa-envelope"></i> 相談は無料！！</div>
             </a>
           </div>
@@ -316,9 +317,9 @@
   </div>
 
   <!-- bootstrap scriptの読み込み -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" -->
+    <!-- crossorigin="anonymous"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
     crossorigin="anonymous"></script>
