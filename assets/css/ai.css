@@ -49,11 +49,20 @@ header img {
 }
 
 
-
-
+.btn-size{
+  width: 120px;
+  height: auto;
+}
+.info:hover{
+  opacity: 0.7;
+}
+.btn-hover{
+  font-size: 20px;
+  font-weight: bold;
+}
 .info{
   border-radius: 100%;
-  background-color: yellow;
+  background-color: #ffc001;
   height: 200px;
   width: 200px;
   display: flex;
@@ -68,13 +77,13 @@ header img {
 main h5{
   font-size: 28px;
   border-bottom: 1px solid black;
-  background: linear-gradient(transparent 30%, rgb(245, 164, 231) 60%);
+  background: linear-gradient(transparent 30%, #ccffff 60%);
 }
+
 .main-box{
   width: 100%;
   border: 10px gray solid;
   border-style: inset;
-  margin-top: 30px;
 }
 
 .address{
