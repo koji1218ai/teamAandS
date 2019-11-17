@@ -132,9 +132,13 @@ section {
     width: 100%;
 }
 .site p {
+    margin-left: 10px;
     width: 60%;
     /* background-color: red; */
     font-size: 17px;
+}
+.site span {
+    border-bottom: 2px solid red;
 }
 
 /* aside-menu終了 */
