@@ -6,6 +6,8 @@ $(function(){
     $("body, html").animate({ scrollTop: 0 }, 1000);
   });
 
+
+  
   //モーダル
   $(".js-modal").on("click", function() {
     $("body").addClass("modal-open");
