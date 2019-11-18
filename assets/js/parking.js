@@ -27,7 +27,7 @@ $(function(){
         var imgPos = $(this).offset().top;    
         var scroll = $(window).scrollTop();
         var windowHeight = $(window).height();
-        if (scroll > imgPos - windowHeight + windowHeight/2){
+        if (scroll > imgPos - windowHeight + windowHeight/3){
           $(this).css("opacity","1" );
           $(this).css({ 
             "font-size": "100px",
