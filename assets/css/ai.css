@@ -56,8 +56,11 @@ header img {
 .info:hover{
   opacity: 0.7;
 }
-.btn-hover{
+.info p{
   font-size: 20px;
+}
+.btn-hover{
+  font-size: 23px;
   font-weight: bold;
 }
 .info{
